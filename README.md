@@ -1,1 +1,1 @@
-# EchoText
+# EchoText test app
