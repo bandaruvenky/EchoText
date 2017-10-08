@@ -9,6 +9,10 @@ restService.use(bodyParser.urlencoded({
     extended: true
 }));
 
+restService.get('/', function (req, res) {
+  res.send('hello, world');
+});
+
 restService.use(bodyParser.json());
 
 restService.post('/echo', function(req, res) {
